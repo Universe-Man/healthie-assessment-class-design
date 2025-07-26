@@ -1,24 +1,37 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello Healthie Team!!
 
-Things you may want to cover:
+I'm Ian Pollack and thank you for reviewing my Class Design assessment!
 
-* Ruby version
+I setup this project using "rails new" and created my models with "rails g model Cat" with all applicable classes.
 
-* System dependencies
+It is worth noting that I did use the Google and the Rails Docs to reconfirm these commands and code structure.\, but implemented this code myself.
 
-* Configuration
+To run this application:
+- Run "bundle install" to ensure all dependencies are installed.
+- Run "rails runner script/run.rb". This should printout the results of the script in the console.
+- If the above command doesn't work, try running "rails console" and then running "load 'script/run.rb'". (running the script this way will include a "true" return, but feel free to ignore that as the printouts are what matter in this case)
 
-* Database creation
+Files you should care about (the rest is boilerplate from rails new):
 
-* Database initialization
+- Models:
+  - /app/models/cat_food.rb
+  - /app/models/cat.rb
+  - /app/models/chicken.rb
+  - /app/models/dog_food.rb
+  - /app/models/dog.rb
+  - /app/models/human_food.rb
+  - /app/models/lemon.rb
+  - /app/models/milk.rb
 
-* How to run the test suite
+- Database:
+  - /db/migrate/* (all the migration files from the models above)
+  - /db/schema.rb (auto generated but the DB schema for the tables of the models)
 
-* Services (job queues, cache servers, search engines, etc.)
+- Script:
+  - /script/run.rb (this is the file where I create class instances and invoke their methods)
 
-* Deployment instructions
+Disclaimer: Opted to not include seeds or tests since it didn't seem necessary, but I can elaborate on this is required.
 
-* ...
+Please let me know if you have any questions! Looking forward to your feedback!
