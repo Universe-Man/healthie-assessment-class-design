@@ -1,2 +1,2 @@
-class Milk < ApplicationRecord
+class Milk
 end

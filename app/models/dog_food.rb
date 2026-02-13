@@ -1,2 +1,2 @@
-class DogFood < ApplicationRecord
+class DogFood
 end

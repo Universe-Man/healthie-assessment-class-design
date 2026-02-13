@@ -1,2 +1,2 @@
-class CatFood < ApplicationRecord
+class CatFood
 end

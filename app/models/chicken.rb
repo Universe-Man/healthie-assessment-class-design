@@ -1,2 +1,2 @@
-class Chicken < ApplicationRecord
+class Chicken
 end

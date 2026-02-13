@@ -1,2 +1,2 @@
-class HumanFood < ApplicationRecord
+class HumanFood
 end

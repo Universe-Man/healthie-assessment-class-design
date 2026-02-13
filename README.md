@@ -6,12 +6,13 @@ I'm Ian Pollack and thank you for reviewing my Class Design assessment!
 
 I setup this project using "rails new" and created my models with "rails g model Cat" with all applicable classes.
 
-It is worth noting that I did use the Google and the Rails Docs to reconfirm these commands and code structure.\, but implemented this code myself.
+It is worth noting that I did use Google and the Rails Docs to reconfirm these commands and code structure, but implemented this code myself.
 
 To run this application:
 - Run "bundle install" to ensure all dependencies are installed.
+- Run "rails db:migrate" to run the migration files and setup the database tables from the schema.
 - Run "rails runner script/run.rb". This should printout the results of the script in the console.
-- If the above command doesn't work, try running "rails console" and then running "load 'script/run.rb'". (running the script this way will include a "true" return, but feel free to ignore that as the printouts are what matter in this case)
+- If the above command doesn't work, try running "rails console" (rails c) and then running "load 'script/run.rb'". (running the script this way will include a "true" return, but feel free to ignore that as the printouts are what matter in this case)
 
 Files you should care about (the rest is boilerplate from rails new):
 

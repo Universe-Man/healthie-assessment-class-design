@@ -1,15 +1,9 @@
-class Dog < ApplicationRecord
-  def make_noise
-    puts "bark"
+class Dog < Animal
+  def initialize
+    @liked_foods = [DogFood, CatFood, Chicken, HumanFood]
   end
 
-  def eat(food)
-    if (["DogFood", "CatFood", "Chicken", "HumanFood"].include?(food.class.name))
-      make_noise
-      make_noise
-      make_noise
-    else
-      make_noise
-    end
+  def make_noise
+    puts "bark"
   end
 end
