@@ -7,6 +7,7 @@ dog_food = DogFood.new
 human_food = HumanFood.new
 lemon = Lemon.new
 milk = Milk.new
+shoe = Shoe.new
 puts "Class Instances Created"
 puts "------------------------"
 puts "Let's Feed Some Animals!!"
@@ -48,5 +49,8 @@ dog.eat(lemon)
 
 puts "Dog Eats Milk:"
 dog.eat(milk)
+
+puts "Dog Eats Shoe:"
+dog.eat(shoe)
 
 puts "We are out of all food now, but I hope you enjoyed all the 'meows' and 'barks'!"
