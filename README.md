@@ -4,7 +4,7 @@ Hello Healthie Team!!
 
 I'm Ian Pollack and thank you for reviewing my Class Design assessment!
 
-As one would expect, I utilized the internet and Google to reference docs and syntax, but if have any questions about my approach I'd love to answer them.
+I utilized the internet and Google to reference docs and syntax, but if have any questions about my approach I'd love to answer them.
 
 ## To run this application:
   - Run "bundle install" to ensure all dependencies are installed (you might not need to do this, but just in case).
